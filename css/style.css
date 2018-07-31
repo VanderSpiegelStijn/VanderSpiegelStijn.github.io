@@ -101,7 +101,7 @@ a:hover {
 
 }
 
-#input-field > input[type="text"] {
+#inputs > input[type="text"] {
 	background-color: #f0eeeb;
 	text-align: center;
 	font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -113,7 +113,7 @@ a:hover {
     padding-right: 50px;
 }
 
-#input-field > #sbutton {
+#inputs > #sbutton {
     margin-left: -50px;
     width: 50px;
 }
