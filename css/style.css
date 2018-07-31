@@ -6,7 +6,7 @@ body {
 #welcome {
 	color: #eaa420;
 	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 16px;
+	font-size: 22px;
     line-height: 1.42857143;
 }
 
@@ -65,7 +65,7 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 	height: 50%;
-	width: 40%;
+	width: 60%;
 	background-color: #2980b9;
 }
 
@@ -73,14 +73,14 @@ a:hover {
 	display: flex;
 	text-align: center;
 	align-items: center;
-	width: 40%;
+	width: 70%;
 	height: 50%;
 	background-color: #2980b9;
 }
 
 #ign-information {
 	width: calc(100% - 40%);
-	background-color: #2d2d2d;
+	background-color: #2980b9;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -107,7 +107,7 @@ a:hover {
 }
 
 #inputs > input[type="text"] {
-	background-color: #f0eeeb;
+	background-color: #e59025;
 	text-align: center;
 	font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.75rem;
