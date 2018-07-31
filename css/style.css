@@ -1,5 +1,7 @@
 body {
 	margin: 0;
+	height: 2000px;
+	width:
 }
 
 #footer {
@@ -8,7 +10,7 @@ body {
 	border-top-color: #4f4f4f;
 	position: absolute;
 	width: 100vw;
-	height: 5h;
+	height: 10vh
 	
 }
 #ign-checker {
@@ -31,9 +33,21 @@ body {
 }
 #cocktails-for-ing {
 	width: 100vw;
-	height: 55vh;
+	height: 50vh
 	background-color: #181717;
 	border-top: 0.5px;
 	border-top-color: #4f4f4f;
 	
+}
+
+#input-field > input[type="text"] {
+    width: 200px;
+    height: 20px;
+    padding-right: 50px;
+}
+
+#input-field > input[type="submit"] {
+    margin-left: -50px;
+    height: 20px;
+    width: 50px;
 }
