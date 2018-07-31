@@ -1,5 +1,19 @@
-body {
-	background-image: url("/img/cocktail-wallpapers.jpg");
-	background-repeat: no-repeat;
+#footer {
+	background-color: black;
+}
+#ign-checker {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
 
+#input-field {
+	background-color: yellow;
+}
+
+#ign-information {
+	width: 50%;
+	background-color: green;
+	display: hidden;
+	
 }
