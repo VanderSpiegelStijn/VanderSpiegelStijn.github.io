@@ -22,13 +22,19 @@ body {
 
 #input-field {
 	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: #181717;
 }
 
 #ign-information {
 	width: calc(100% - 40%);
 	background-color: #181717;
-	display: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-color: white;
 	
 }
 #cocktails-for-ing {
@@ -57,13 +63,11 @@ body {
 #input-field > input[type="text"] {
     width: 200px;
     height: 40px;
-	margin: 0 auto;
     padding-right: 50px;
 }
 
 #input-field > #sbutton {
     margin-left: -50px;
     height: 40px;
-	margin: 0 auto;
     width: 45px;
 }
