@@ -110,7 +110,7 @@ a:hover {
 }
 
 #inputs > input[type="text"] {
-	background-color: #c9c6af;
+	background-color: #F6DFB3;
 	text-align: center;
 	font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.75rem;
@@ -145,5 +145,5 @@ p {
 	justify-content: center;
 	width: 70vh;
 	height: 45vh;
-	background-color: #c9c6af;
+	background-color: #F6DFB3;
 }
