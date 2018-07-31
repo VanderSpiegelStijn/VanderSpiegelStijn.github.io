@@ -57,7 +57,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #2d2d2d;
+	background-color: #2980b9;
 }
 
 #inputs {
@@ -66,7 +66,7 @@ a:hover {
 	align-items: center;
 	height: 50%;
 	width: 40%;
-	background-color: #2d2d2d;
+	background-color: #2980b9;
 }
 
 #welcome-message {
@@ -75,7 +75,7 @@ a:hover {
 	align-items: center;
 	width: 40%;
 	height: 50%;
-	background-color: #2d2d2d;
+	background-color: #2980b9;
 }
 
 #ign-information {
