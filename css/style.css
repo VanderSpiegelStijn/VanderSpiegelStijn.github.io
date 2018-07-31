@@ -89,6 +89,8 @@ a:hover {
 }
 #cocktails-for-ing {
 	display:flex;
+	flex-direction: row;
+	justify-content: center;
 	width: 100vw;
 	height: 50vh;
 	background-color: #2980b9;
