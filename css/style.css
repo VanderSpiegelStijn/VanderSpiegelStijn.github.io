@@ -29,6 +29,11 @@ a:visited {
 	color: white;
 }
 
+a:link {
+    text-decoration: none;
+	color: white;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -99,9 +104,13 @@ a:hover {
 }
 
 p {
-	margin: 0 0 11px;
+	margin: 30px 0 11px;
 }
 
 #text-center {
 	text-align: center;
+	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+}
 }
