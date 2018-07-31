@@ -57,7 +57,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #2980b9;
+	background-color: #ffd263;
 }
 
 #inputs {
@@ -66,7 +66,7 @@ a:hover {
 	align-items: center;
 	height: 50%;
 	width: 60%;
-	background-color: #2980b9;
+	background-color: #ffd263;
 }
 
 #welcome-message {
@@ -75,12 +75,12 @@ a:hover {
 	align-items: center;
 	width: 70%;
 	height: 50%;
-	background-color: #2980b9;
+	background-color: #ffd263;
 }
 
 #ign-information {
 	width: calc(100% - 40%);
-	background-color: #2980b9;
+	background-color: #ffd263;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -91,12 +91,10 @@ a:hover {
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 	width: 100vw;
 	height: 50vh;
-	background-color: #2980b9;
-	border-top: 2px;
-	border-top-color: black;
-	
+	background-color: #ffd263;
 }
 
 #sbutton {
