@@ -1,11 +1,9 @@
 body {
 	margin: 0;
-	height: 2000px;
-	width:
 }
 
 #footer {
-	background-color: #222222;
+	background-color: #4f4f4f;
 	border-top: 0.5px;
 	border-top-color: #4f4f4f;
 	position: absolute;
@@ -51,12 +49,12 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #181717;
+	background-color: #222222;
 }
 
 #ign-information {
 	width: calc(100% - 40%);
-	background-color: #181717;
+	background-color: #222222;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -66,7 +64,7 @@ a:hover {
 #cocktails-for-ing {
 	width: 100vw;
 	height: 50vh;
-	background-color: #181717;
+	background-color: #222222;
 	border-top: 0.5px;
 	border-top-color: #4f4f4f;
 	
