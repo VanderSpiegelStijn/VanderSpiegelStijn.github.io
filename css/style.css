@@ -62,6 +62,8 @@ body {
 
 #input-field > input[type="text"] {
 	background-color: #f0eeeb;
+	font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 0.75rem;
 	color: #5c5b5a;
 	border: none;
     width: 200px;
@@ -71,6 +73,5 @@ body {
 
 #input-field > #sbutton {
     margin-left: -50px;
-    height: 46px;
     width: 50px;
 }
