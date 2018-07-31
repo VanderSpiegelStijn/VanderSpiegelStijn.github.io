@@ -11,8 +11,19 @@ body {
 	position: absolute;
 	width: 100vw;
 	height: 10vh
+	color: white;
 	
 }
+
+#footer > a {
+	color: #fff;
+}
+
+a {
+	background: 0 0;
+	text-decoration: none;
+}
+
 #ign-checker {
 	display: flex;
 	flex-direction: row;
