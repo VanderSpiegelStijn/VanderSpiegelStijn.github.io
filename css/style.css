@@ -4,21 +4,36 @@ body {
 
 #footer {
 	background-color: black;
+	border-top: 0.5px;
+	border-top-color: #4f4f4f;
+	position: absolute;
+	width: 100vw;
+	height: 5h;
+	
 }
 #ign-checker {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	height: 40vh;
 }
 
 #input-field {
 	width: 40%;
-	background-color: yellow;
+	background-color: #181717;
 }
 
 #ign-information {
 	width: calc(100% - 40%);
-	background-color: green;
+	background-color: #181717;
 	display: hidden;
+	
+}
+#cocktails-for-ing {
+	width: 100vw;
+	height: 55vh;
+	background-color: #181717;
+	border-top: 0.5px;
+	border-top-color: #4f4f4f;
 	
 }
