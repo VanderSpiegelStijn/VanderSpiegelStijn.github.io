@@ -64,12 +64,17 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 50%;
+	width: 40%;
 	background-color: #2d2d2d;
 }
 
 #welcome-message {
 	display: flex;
 	text-align: center;
+	align-items: center;
+	width: 40%;
+	height: 50%;
 	background-color: #2d2d2d;
 }
 
