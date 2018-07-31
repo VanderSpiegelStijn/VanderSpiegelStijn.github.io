@@ -2,6 +2,7 @@
 	background-color: black;
 }
 #ign-checker {
+	margin: 0;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
