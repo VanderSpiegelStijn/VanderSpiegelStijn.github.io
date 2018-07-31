@@ -90,7 +90,7 @@ a:hover {
 #cocktails-for-ing {
 	width: 100vw;
 	height: 50vh;
-	background-color: #2d2d2d;
+	background-color: #2980b9;
 	border-top: 0.5px;
 	border-top-color: #4f4f4f;
 	
@@ -107,7 +107,7 @@ a:hover {
 }
 
 #inputs > input[type="text"] {
-	background-color: #e59025;
+	background-color: #ecd19d;
 	text-align: center;
 	font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 0.75rem;
@@ -133,4 +133,13 @@ p {
 	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 1.42857143;
+}
+
+#flex-cocktails {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 70vh;
+	background-color: #ecd19d;
 }
