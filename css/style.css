@@ -92,8 +92,8 @@ a:hover {
 	width: 100vw;
 	height: 50vh;
 	background-color: #2980b9;
-	border-top: 0.5px;
-	border-top-color: #4f4f4f;
+	border-top: 2px;
+	border-top-color: black;
 	
 }
 
