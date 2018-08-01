@@ -24,8 +24,8 @@ $(document).ready(function(){
 		$("#information").css('background-color', 'white');
 		$("#information").css('color', '#202020');
 		$("#imagedisplay").css('background-color', 'white');
-		$("input :text").css('color', '#6fea6f');
-		$("input :submit").css('color', '#6fea6f');
+		$("$sbutton").css('color', '#6fea6f');
+		$("$input-field-text").css('color', '#6fea6f');
 	} else {
 		console.log("false");
 		$("p").toggleClass('cocktail gentleman');

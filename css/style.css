@@ -81,6 +81,7 @@ a:hover {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+	padding: 5px;
 }
 
 img {
@@ -112,7 +113,7 @@ img {
 
 }
 
-#inputs > input[type="text"] {
+#input-field-text {
 	background-color: #202020;
 	text-align: center;
 	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -124,7 +125,7 @@ img {
 	margin-bottom: 15px;
 }
 
-#inputs > #sbutton {
+#sbutton {
     padding: 2px;
     width: 100%;
 	outline:none;
