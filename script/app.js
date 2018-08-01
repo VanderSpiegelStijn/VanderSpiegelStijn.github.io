@@ -14,11 +14,11 @@ $(document).ready(function(){
 
 function InitVars(){
 	fontbtn = $('#font-type')[0];
-	sitebtn = $('#site-style')[0];
+	sitebtn = $('#site-style');
 }
 
 
-if (fontbtn.attr('checked')) {
+if (fontbtn.is(':checked')) {
 	console.log("true");
 	$("p").toggleClass('gentleman cocktail');
 	$("h4").toggleClass('gentleman cocktail');
