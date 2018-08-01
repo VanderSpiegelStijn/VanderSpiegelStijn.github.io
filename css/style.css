@@ -79,9 +79,8 @@ a:hover {
 
 #togglebutton {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
-	padding: 10px;
+	width: 100%;
 }
 
 img {
@@ -152,7 +151,13 @@ img {
 
 #footer-text {
 	font-size: 15px;
-	text-align: center; 
+	text-align: center;
+	color: #202020;
+}
+
+#infobutton {
+	width: 100%;
+	text-align: center;
 }
 
 .gentleman {
@@ -174,6 +179,10 @@ img {
 h4 {
 	margin-top: 9px;
 	font-size: 15px;
+}
+
+hr {
+	border-top: 1px solid #8c8b8b;
 }
 
 
