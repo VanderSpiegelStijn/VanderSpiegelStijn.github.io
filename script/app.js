@@ -13,8 +13,8 @@ $(document).ready(function(){
 
 
 function InitVars(){
-	var fontbtn = document.getElementById("font-type");
-	var sitebtn = document.getElementById("site-style");
+	fontbtn = $('#font-type')[0];
+	sitebtn = $('#site-style')[0];
 }
 
 
