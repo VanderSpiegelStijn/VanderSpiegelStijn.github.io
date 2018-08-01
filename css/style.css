@@ -55,6 +55,7 @@ a:hover {
 #info {
 	display:flex;
 	flex-direction: column;
+	justify-content: center;
 	height: 90vh;
 	background-color: #202020;
 	width: 60vw;
@@ -91,7 +92,7 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 	height: 50%;
-	width: 60%;
+	width: 100%;
 	background-color: #b8eff0;
 }
 
