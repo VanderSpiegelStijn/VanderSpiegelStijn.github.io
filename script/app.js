@@ -1,4 +1,6 @@
-$("#fnttype").change(function() {
+$(document).ready(function(){
+
+   $("#fnttype").change(function() {
 	var $input = $( this );
 	console.log($input.is(':checked'));
 	if ($input.is(':checked')) {
@@ -22,5 +24,9 @@ $( "input :checkbox" ).on( "change", function() {
   console.log( $( this ).is(':checked') );
   console.log( $( this ).prop('checked') );
 });
+
+});
+
+
 
 
