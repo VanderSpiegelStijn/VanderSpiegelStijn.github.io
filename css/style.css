@@ -2,14 +2,6 @@ body {
 	margin: 0;
 }
 
-
-#welcome {
-	color: #eaa420;
-	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 22px;
-    line-height: 1.42857143;
-}
-
 #footer {
 	background-color: #222222;
 	border-top: 0.5px;
@@ -44,21 +36,36 @@ a:hover {
     text-decoration: underline;
 }
 
-
-#ign-checker {
-	display: flex;
+#content {
+	display:flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	height: 40vh;
+	height: 90vh;
 }
 
-#input-field {
-	width: 40%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #ffd263;
+#controls {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	height: 90vh;
 }
+
+#info {
+	display:flex;
+	flex-direction: column;
+	height: 90vh;
+	background-color: blue;
+}
+
+#options {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 50%;
+	background-color: red;
+}
+
+
 
 #inputs {
 	display: flex;
@@ -66,34 +73,6 @@ a:hover {
 	align-items: center;
 	height: 50%;
 	width: 60%;
-	background-color: #ffd263;
-}
-
-#welcome-message {
-	display: flex;
-	text-align: center;
-	align-items: center;
-	width: 70%;
-	height: 50%;
-	background-color: #ffd263;
-}
-
-#ign-information {
-	width: calc(100% - 40%);
-	background-color: #ffd263;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #e59025;
-	
-}
-#cocktails-for-ing {
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	width: 100vw;
-	height: 50vh;
 	background-color: #ffd263;
 }
 
@@ -136,13 +115,4 @@ p {
     line-height: 1.42857143;
 }
 
-#flex-cocktails {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	width: 70vh;
-	height: 45vh;
-	background-color: #F6DFB3;
-	border: 1px solid #d4ba8c;
-}
+
