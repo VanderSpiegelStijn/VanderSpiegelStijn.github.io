@@ -37,6 +37,17 @@ $(document).ready(function(){
 		$("#input-field-text").css('color', '#2c9c91');
 	}
 	});
+	
+	$("#sbutton").click(function() {
+	var $input = $("input-field-text").val();
+	console.log($input.val());
+	if (($input.val() == "")) {
+		$("img").src("/img/no-ingredient.jpg");
+		$("#infoparagraph").text("Sorry it seems like u forgot to enter an ingredient in the input field, please consider doing so to get the most out of this website!");
+	} else {
+		
+	}
+	});
 
 });
 
