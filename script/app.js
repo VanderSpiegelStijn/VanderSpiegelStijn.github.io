@@ -12,18 +12,7 @@ $(document).ready(function(){
 		$("p").toggleClass('cocktail gentleman');
 		$("h4").toggleClass('cocktail gentleman');
 	}
-});
-
-
-$( "#fnttype" ).on( "change", function() {
-  console.log( $( this ).is(':checked') );
-  console.log( $( this ).prop('checked') );
-});
-
-$( "input :checkbox" ).on( "change", function() {
-  console.log( $( this ).is(':checked') );
-  console.log( $( this ).prop('checked') );
-});
+	});
 
 });
 

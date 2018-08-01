@@ -146,33 +146,34 @@ img {
 }
 
 #infoparagraph {
-	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 16px;
 	text-align: center;
 }
 
 #footer-text {
-	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 12px;
-	text-align: center;
+	font-size: 15px;
+	text-align: center; 
 }
 
 .gentleman {
 	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.cocktail {
-	font-family: cocktailstyle;
+@font-face {
+    font-family: "cocktailstyle";
+    src: local('Armand Cocktail'),
+		`local('Armand_Cocktail'),
+		 url(/font/Armand_Cocktail.ttf);
 }
 
-@font-face {
-    font-family: cocktailstyle;
-    src: url(/font/Armand_Cocktail.ttf);
+.cocktail {
+	font-family: "cocktailstyle";
 }
+
 
 h4 {
 	margin-top: 9px;
-	
+	font-size: 15px;
 }
 
 
