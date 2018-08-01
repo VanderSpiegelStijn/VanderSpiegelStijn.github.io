@@ -1,5 +1,5 @@
 
-$("#fntbtn").change(function() {
+$("#fnttype").change(function() {
 	var $input = $( this );
 	console.log($input.is(':checked'));
 	if ($input.is(':checked')) {
