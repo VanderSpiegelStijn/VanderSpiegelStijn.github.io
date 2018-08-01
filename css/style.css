@@ -81,6 +81,7 @@ a:hover {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding: 10px;
 }
 
 img {
@@ -167,6 +168,11 @@ img {
 @font-face {
     font-family: cocktailstyle;
     src: url(/font/Armand_Cocktail.ttf);
+}
+
+h4 {
+	margin-top: 9px;
+	
 }
 
 
