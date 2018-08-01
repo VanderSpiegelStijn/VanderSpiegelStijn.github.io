@@ -46,7 +46,7 @@ a:hover {
 	position: fixed;
 	height: 100%;
 	width: 25%;
-	padding: 25px;
+	padding: 45px;
 	background-color: #2c9c91;
 }
 
@@ -77,6 +77,10 @@ a:hover {
 	padding-top: 25px;
 }
 
+#togglebutton {
+	margin-top: 5px;
+}
+
 img {
   display: block;
   width: 100%;
@@ -85,8 +89,8 @@ img {
 
 
 #options {
-	border-sizing: border-box;
-	width: 100%
+	box-sizing: border-box;
+	width: 100%;
 }
 
 
@@ -122,7 +126,6 @@ img {
     width: 100%;
 	outline:none;
 	height: 30px;
-    border-radius: 15px;
 }
 
 #sbutton:active {
@@ -143,6 +146,12 @@ p {
 #infoparagraph {
 	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 16px;
+	text-align: center;
+}
+
+#footer-text {
+	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
 	text-align: center;
 }
 
