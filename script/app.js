@@ -1,8 +1,13 @@
+var fontbtn;
+var sitebtn;
+
 $(document).ready(function(){
    "use strict";
 
 	InitVars();
 	console.log(" init vars done");
+	console.log(fontbtn);
+	console.log(sitebtn);
 });
 
 
@@ -13,7 +18,7 @@ function InitVars(){
 }
 
 
-if ($fontbtn.attr('checked')) {
+if (fontbtn.attr('checked')) {
 	console.log("true");
 	$("p").toggleClass('gentleman cocktail');
 	$("h4").toggleClass('gentleman cocktail');
