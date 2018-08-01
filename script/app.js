@@ -13,10 +13,12 @@ function InitVars(){
 }
 
 
-if (fontbtn.is(':checked')) {
+if ($fontbtn.attr('checked')) {
+	console.log("true");
 	$("p").toggleClass('gentleman cocktail');
 	$("h4").toggleClass('gentleman cocktail');
 } else {
+	console.log("false");
 	$("p").toggleClass('cocktail gentleman');
 	$("h4").toggleClass('cocktail gentleman');
 }
