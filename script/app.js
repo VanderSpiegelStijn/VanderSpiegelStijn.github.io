@@ -8,8 +8,8 @@ $(document).ready(function(){
 
 
 function InitVars(){
-	var fontbtn = document.getElementById("font-type"),
-	var sitebtn = document.getElementById("site-style"),
+	var fontbtn = document.getElementById("font-type");
+	var sitebtn = document.getElementById("site-style");
 }
 
 
