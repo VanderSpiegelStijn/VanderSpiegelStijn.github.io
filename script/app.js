@@ -1,5 +1,5 @@
 
-fontbtn.change(function() {
+$("#font-type").change(function() {
 	var $input = $( this );
 	console.log($input.prop( "checked" ));
 	if ($input.prop( "checked" ) == true) {
