@@ -39,7 +39,7 @@ $(document).ready(function(){
 	});
 	
 	$("#sbutton").click(function() {
-	var $input = $("input-field-text").val();
+	var $input = $("#input-field-text").val();
 	console.log($input.val());
 	if (($input.val() == "")) {
 		$("img").src("/img/no-ingredient.jpg");
