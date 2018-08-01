@@ -1,4 +1,3 @@
-
 $("#fnttype").change(function() {
 	var $input = $( this );
 	console.log($input.is(':checked'));
@@ -11,6 +10,6 @@ $("#fnttype").change(function() {
 		$("p").toggleClass('cocktail gentleman');
 		$("h4").toggleClass('cocktail gentleman');
 	}
-}).change();
+});
 
 
