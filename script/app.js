@@ -1,8 +1,8 @@
 
-$("#font-type").click(function() {
+$("#fntbtn").change(function() {
 	var $input = $( this );
-	console.log($input.prop( "checked" ));
-	if ($input.prop( "checked" ) == true) {
+	console.log($input.is(':checked'));
+	if ($input.is(':checked')) {
 		console.log("true");
 		$("p").toggleClass('gentleman cocktail');
 		$("h4").toggleClass('gentleman cocktail');
@@ -11,6 +11,6 @@ $("#font-type").click(function() {
 		$("p").toggleClass('cocktail gentleman');
 		$("h4").toggleClass('cocktail gentleman');
 	}
-});
+}).change();
 
 
