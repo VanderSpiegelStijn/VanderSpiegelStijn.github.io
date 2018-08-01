@@ -1,5 +1,6 @@
-body {
+* {
 	margin: 0;
+	padding 0;
 }
 
 #footer {
@@ -37,30 +38,26 @@ a:hover {
     text-decoration: underline;
 }
 
-#content {
-	display:flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	height: 90vh;
-	width: 100vw;
-}
-
 #controls {
 	display:flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
-	height: 90vh;
-	width: 40vw;
+	justify-content: space-between;
+	box-sizing: border-box;
+	position: fixed;
+	height: 100%;
+	width: 30%;
+	padding: 25px;
+	background-color: #2c9c91;
 }
 
 #info {
 	display:flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
-	height: 100%;
+	position: absolute;
+	height: auto;
 	background-color: #202020;
-	width: 100%;
+	width: 70%;
 }
 
 #imagedisplay {
@@ -86,32 +83,23 @@ img {
 
 
 #options {
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	height: 50%;
-	width: 100%;
-	background-color: #2c9c91;
+	border-sizing: border-box;
+	width: 100%
 }
 
 
 
 #inputs {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 50%;
-	width: 100%;
-	background-color: #2c9c91;
+	box-sizing: border-box;
 }
 
 #sbutton {
-    background-color: white; /* Blue background */
-    border: none; /* Remove borders */
-    color: #e59025; /* White text */
-    padding: 12px 16px; /* Some padding */
-    font-size: 16px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
+    background-color: #202020; 
+    border: none; 
+    color: #2c9c91; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
 
 }
 
@@ -146,8 +134,20 @@ p {
 
 #infoparagraph {
 	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	text-align: center;
+}
+
+@media screen and (max-height: 400px) and (min-width: 250px)
+#footer {
+    height: 100%;
+}
+
+@media screen and (min-width: 950px)
+#controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
