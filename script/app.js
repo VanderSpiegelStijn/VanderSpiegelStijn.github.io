@@ -41,7 +41,7 @@ $(document).ready(function(){
 	$("#sbutton").click(function() {
 	console.log($("#input-field-text").val());
 	if ($("#input-field-text").val() == "") {
-		$("img").src("/img/no-ingredient.jpg");
+		$("img").attr("src","/img/no-ingredient.jpg");
 		$("#infoparagraph").text("Sorry it seems like u forgot to enter an ingredient in the input field, please consider doing so to get the most out of this website!");
 	} else {
 		
