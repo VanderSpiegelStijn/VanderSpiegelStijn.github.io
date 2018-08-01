@@ -57,7 +57,7 @@ a:hover {
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	height: 100%;
 	background-color: #202020;
 	width: 100%;
@@ -66,7 +66,7 @@ a:hover {
 #imagedisplay {
 	height: 40%;
 	background-color: #202020;
-	width: 60%;
+	width: 75%;
 }
 
 #information {
@@ -75,12 +75,13 @@ a:hover {
 	width: 60%;
 	text-align: center;
 	color: white;
+	padding-top: 25px;
 }
 
 img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 
@@ -141,6 +142,12 @@ p {
 	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 1.42857143;
+}
+
+#infoparagraph {
+	font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	text-align: center;
 }
 
 
