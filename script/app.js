@@ -1,5 +1,31 @@
 $(document).ready(function(){
+	
+	Ingredients = [];
+	
+	var ingFilter = "https://www.thecocktaildb.com/api/json/v1/1/search.php?i=";
+	var ingList = "https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list";
+	
+	
+	
+	
+	function getIngInfo(ing) {
+		$.ajax({
+			method:'GET',
+			url: ingFilter+ing,
+			success: function(response){
+				var ingredient = response.ingredients[0];
+				console.log(ingredient)
+				$("img").attr("src","/img/"+ ingredient.strIngredient +".jpg");
+				$("#infoparagraph").text(ingredient.strDescription);
+			}
 
+		});
+	};
+
+	
+	
+	
+	
    $("#fnttype").change(function() {
 	var $input = $( this );
 	console.log($input.is(':checked'));
@@ -43,8 +69,11 @@ $(document).ready(function(){
 	if ($("#input-field-text").val() == "") {
 		$("img").attr("src","/img/no-ingredient.jpg");
 		$("#infoparagraph").text("Sorry it seems like u forgot to enter an ingredient in the input field, please consider doing so to get the most out of this website!");
+	} else if(Ingredients.indexOf($("#input-field-text").val()) > -1) {
+		$("img").attr("src","/img/mystery.jpg");
+		$("#infoparagraph").text("Sorry it seems like the ingredient is not used in any cocktail recipe's that we know of!");
 	} else {
-		
+		getIngInfo($("#input-field-text").val())
 	}
 	});
 
