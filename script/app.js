@@ -13,9 +13,15 @@ $(document).ready(function(){
 			method:'GET',
 			url: ingFilter+ing,
 			success: function(response){
-				var ingredient = response.ingredients[0];
-				$("img").attr("src","https://www.thecocktaildb.com/images/ingredients/"+ ingredient.strIngredient +".png");
-				$("#infoparagraph").text(ingredient.strDescription);
+				if (response == null) {
+					$("img").attr("src","/img/mystery.jpg");
+					$("#infoparagraph").text("Sorry it seems like the ingredient u are trying to use is has not been used yet in a coktail that we know of!");
+				} else 
+				{
+					var ingredient = response.ingredients[0];
+					$("img").attr("src","https://www.thecocktaildb.com/images/ingredients/"+ ingredient.strIngredient +".png");
+					$("#infoparagraph").text(ingredient.strDescription);
+				}
 			}
 
 		});
