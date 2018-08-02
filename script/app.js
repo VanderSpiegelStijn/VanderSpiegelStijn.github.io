@@ -14,7 +14,7 @@ $(document).ready(function(){
 			url: ingFilter+ing,
 			success: function(response){
 				var ingredient = response.ingredients[0];
-				$("img").attr("src","https://www.thecocktaildb.com/images/ingredients/"+ ingredient.strIngredient +"-Medium.png");
+				$("img").attr("src","https://www.thecocktaildb.com/images/ingredients/"+ ingredient.strIngredient +".png");
 				$("#infoparagraph").text(ingredient.strDescription);
 			}
 
