@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	Ingredients = [];
+	Ingredients = ["Vodka"];
 	
 	var ingFilter = "https://www.thecocktaildb.com/api/json/v1/1/search.php?i=";
 	var ingList = "https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list";
