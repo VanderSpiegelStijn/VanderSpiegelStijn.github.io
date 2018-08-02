@@ -6,7 +6,7 @@ $(document).ready(function(){
 	var ingList = "https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list";
 	
 	
-	fillingredientlist
+	fillingredientlist();
 	
 	function getIngInfo(ing) {
 		$.ajax({
@@ -31,7 +31,7 @@ $(document).ready(function(){
 				for (i = 0; i < drink.length; i++){
 					Ingredients.push(drink[i].strIngredient1);
 				}
-				console.log("filled list: " + Ingredients)
+				console.log("filled list: " + Ingredients);
 			}
 
 		});
