@@ -75,9 +75,6 @@ $(document).ready(function(){
 	if ($("#input-field-text").val().toLowerCase() == "") {
 		$("img").attr("src","/img/no-ingredient.jpg");
 		$("#infoparagraph").text("Sorry it seems like u forgot to enter an ingredient in the input field, please consider doing so to get the most out of this website!");
-	} else if(Ingredients.indexOf($("#input-field-text").val().toLowerCase()) == -1) {
-		$("img").attr("src","/img/mystery.jpg");
-		$("#infoparagraph").text("Sorry it seems like the ingredient is not used in any cocktail recipe's that we know of!");
 	} else {
 		getIngInfo($("#input-field-text").val().toLowerCase())
 	}
