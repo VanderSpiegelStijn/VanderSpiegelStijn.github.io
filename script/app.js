@@ -14,8 +14,7 @@ $(document).ready(function(){
 			url: ingFilter+ing,
 			success: function(response){
 				var ingredient = response.ingredients[0];
-				console.log(ingredient)
-				$("img").attr("src","/img/"+ ingredient.strIngredient +".jpg");
+				$("img").attr("src","https://www.thecocktaildb.com/images/ingredients/"+ ingredient.strIngredient +"-Medium.png");
 				$("#infoparagraph").text(ingredient.strDescription);
 			}
 
@@ -31,7 +30,6 @@ $(document).ready(function(){
 				for (i = 0; i < drink.length; i++){
 					Ingredients.push(drink[i].strIngredient1.toLowerCase());
 				}
-				console.log("filled list: " + Ingredients);
 			}
 
 		});
@@ -43,13 +41,10 @@ $(document).ready(function(){
 	
    $("#fnttype").change(function() {
 	var $input = $( this );
-	console.log($input.is(':checked'));
 	if ($input.is(':checked')) {
-		console.log("true");
 		$("p").toggleClass('gentleman cocktail');
 		$("h4").toggleClass('gentleman cocktail');
 	} else {
-		console.log("false");
 		$("p").toggleClass('cocktail gentleman');
 		$("h4").toggleClass('cocktail gentleman');
 	}
@@ -57,9 +52,7 @@ $(document).ready(function(){
 	
 	$("#site-style").change(function() {
 	var $input = $( this );
-	console.log($input.is(':checked'));
 	if ($input.is(':checked')) {
-		console.log("true");
 		$("#controls").css('background-color', '#6fea6f');
 		$("#info").css('background-color', 'white');
 		$("#information").css('background-color', 'white');
@@ -68,7 +61,6 @@ $(document).ready(function(){
 		$("#sbutton").css('color', '#6fea6f');
 		$("#input-field-text").css('color', '#6fea6f');
 	} else {
-		console.log("false");
 		$("#controls").css('background-color', '#2c9c91');
 		$("#info").css('background-color', '#202020');
 		$("#information").css('background-color', '#202020');
