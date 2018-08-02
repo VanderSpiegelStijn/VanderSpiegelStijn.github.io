@@ -56,16 +56,17 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	height: 100%;
+	min-height: 100vh;
 	background-color: #202020;
 	width: 75%;
 	left: 25%;
 }
 
 #imagedisplay {
-	height: 40%;
+	height: 400px;
 	background-color: #202020;
-	width: 65%;
+	width: 400px;
+	padding: 15px;
 }
 
 #information {
@@ -148,6 +149,7 @@ img {
 #infoparagraph {
 	font-size: 16px;
 	text-align: center;
+	padding: 15px;
 }
 
 #footer-text {
