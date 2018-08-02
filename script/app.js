@@ -1,12 +1,12 @@
 $(document).ready(function(){
 	
-	Ingredients = ["Vodka"];
+	Ingredients = [];
 	
 	var ingFilter = "https://www.thecocktaildb.com/api/json/v1/1/search.php?i=";
 	var ingList = "https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list";
 	
 	
-	
+	fillingredientlist
 	
 	function getIngInfo(ing) {
 		$.ajax({
@@ -17,6 +17,21 @@ $(document).ready(function(){
 				console.log(ingredient)
 				$("img").attr("src","/img/"+ ingredient.strIngredient +".jpg");
 				$("#infoparagraph").text(ingredient.strDescription);
+			}
+
+		});
+	};
+	
+	function fillingredientlist() {
+		$.ajax({
+			method:'GET',
+			url: ingList,
+			success: function(response){
+				var drink = response.drinks;
+				for (i = 0; i < drink.length; i++){
+					Ingredients.push(drink[i].strIngredient1);
+				}
+				console.log("filled list: " + Ingredients)
 			}
 
 		});
