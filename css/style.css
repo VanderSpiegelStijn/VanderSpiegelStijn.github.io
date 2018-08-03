@@ -54,9 +54,6 @@ a:hover {
 
 
 #controls {
-	display:flex;
-	flex-direction: column;
-	justify-content: space-between;
 	box-sizing: border-box;
 	position: fixed;
 	height: 100%;
@@ -66,10 +63,6 @@ a:hover {
 }
 
 #info {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	position: absolute;
 	min-height: 100vh;
 	background-color: #202020;
@@ -202,9 +195,36 @@ hr {
 	border-top: 1px solid #8c8b8b;
 }
 
+@media screen and (min-width: 980px) {
+	#controls {
+		display:flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (min-width: 980px) {
+	#info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 980px) and (min-width: 600px) {
+	#info {
+		position: static;
+		width: 100%;
+		display: flex;
+	}
+}
+
+
 @media screen and (max-width: 980px) and (min-width: 600px) {
 	#controls {
-		position: absolute;
+		position: static;
+		top: 75%;
 		width: 100%;
 		display: flex;
 	}
