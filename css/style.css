@@ -195,13 +195,6 @@ hr {
 	border-top: 1px solid #8c8b8b;
 }
 
-@media screen and (min-width: 800px) {
-	#navbutton {
-		display: none;
-		
-	}
-}
-
 @media screen and (min-width: 980px) {
 	#controls {
 		display:flex;
