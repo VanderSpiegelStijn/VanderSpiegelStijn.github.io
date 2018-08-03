@@ -17,7 +17,7 @@ $(document).ready(function(){
 				} else 
 				{
 					var ingredient = response.ingredients[0];
-					$("#imagedisplay").("img").attr("src","https://www.thecocktaildb.com/images/ingredients/"+ ingredient.strIngredient +".png");
+					$("#imagedisplay").children("img").attr("src","https://www.thecocktaildb.com/images/ingredients/"+ ingredient.strIngredient +".png");
 					$("#infoparagraph").text(ingredient.strDescription);
 					fillingredientlist(ingredient.strIngredient);
 				}
