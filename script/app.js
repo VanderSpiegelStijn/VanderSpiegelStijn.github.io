@@ -17,7 +17,7 @@ $(document).ready(function(){
 				} else 
 				{
 					var ingredient = response.ingredients[0];
-					$("img").attr("src","https://www.thecocktaildb.com/images/ingredients/"+ ingredient.strIngredient +".png");
+					$("#imagedisplay").$("img").attr("src","https://www.thecocktaildb.com/images/ingredients/"+ ingredient.strIngredient +".png");
 					$("#infoparagraph").text(ingredient.strDescription);
 					fillingredientlist(ingredient.strIngredient);
 				}
@@ -26,10 +26,10 @@ $(document).ready(function(){
 		});
 	};
 	
-	function fillingredientlist(ing) {
+	function fillingredientlist(cing) {
 		$.ajax({
 			method:'GET',
-			url: Drinksfilter+ing,
+			url: Drinksfilter+cing,
 			success: function(response){
 				var drink = response.drinks;
 				for (i = 0; i < drink.length; i++){
