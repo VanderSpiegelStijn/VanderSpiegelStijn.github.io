@@ -1,12 +1,10 @@
 $(document).ready(function(){
 	
-	Ingredients = [];
+	
 	
 	var ingFilter = "https://www.thecocktaildb.com/api/json/v1/1/search.php?i=";
-	var ingList = "https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list";
+	var Drinksfilter = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=";
 	
-	
-	fillingredientlist();
 	
 	function getIngInfo(ing) {
 		$.ajax({
@@ -21,20 +19,21 @@ $(document).ready(function(){
 					var ingredient = response.ingredients[0];
 					$("img").attr("src","https://www.thecocktaildb.com/images/ingredients/"+ ingredient.strIngredient +".png");
 					$("#infoparagraph").text(ingredient.strDescription);
+					fillingredientlist(ingredient.strIngredient);
 				}
 			}
 
 		});
 	};
 	
-	function fillingredientlist() {
+	function fillingredientlist(ing) {
 		$.ajax({
 			method:'GET',
-			url: ingList,
+			url: Drinksfilter+ing,
 			success: function(response){
 				var drink = response.drinks;
 				for (i = 0; i < drink.length; i++){
-					Ingredients.push(drink[i].strIngredient1.toLowerCase());
+					$("#cocktails").append('<img src=' + '"' + drink[i].strDrinkThumb + '"' + ' title=' + '"' + drink[i].strDrink + '"' + ' />');
 				}
 			}
 

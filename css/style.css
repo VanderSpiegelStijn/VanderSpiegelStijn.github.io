@@ -38,6 +38,21 @@ a:hover {
     text-decoration: underline;
 }
 
+#cocktails {
+	display: flex;
+	width: 100%;
+	padding: 50px;
+	justify-content: space-between;
+	flex-direction: row;
+	height: auto;	
+}
+
+#cocktails > img {
+	width: 100px;
+	height: 100px;	
+}
+
+
 #controls {
 	display:flex;
 	flex-direction: column;
