@@ -129,15 +129,14 @@ img {
 	color: #2c9c91;
 	border: none;
     width: 100%;
-    height: 40px;
+    min-height: 34px;
 	margin-bottom: 15px;
 }
 
 #sbutton {
     padding: 2px;
     width: 100%;
-	outline:none;
-	height: 30px;
+	min-height: 34px;
 }
 
 #sbutton:active {
