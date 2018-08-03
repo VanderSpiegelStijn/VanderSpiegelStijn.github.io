@@ -5,6 +5,12 @@ $(document).ready(function(){
 	var ingFilter = "https://www.thecocktaildb.com/api/json/v1/1/search.php?i=";
 	var Drinksfilter = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=";
 	
+	if ($(window).width() < 800) {
+		$("#navbutton").css.('display','inherit')
+	}
+	else {
+		$("#navbutton").css.('display','none')
+	}	
 	
 	function getIngInfo(ing) {
 		$.ajax({

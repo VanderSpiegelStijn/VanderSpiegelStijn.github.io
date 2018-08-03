@@ -195,6 +195,13 @@ hr {
 	border-top: 1px solid #8c8b8b;
 }
 
+@media screen and (min-width: 800px) {
+	#navbutton {
+		display: none;
+		
+	}
+}
+
 @media screen and (min-width: 980px) {
 	#controls {
 		display:flex;
@@ -212,14 +219,14 @@ hr {
 	}
 }
 
-@media screen and (max-width: 980px) and (min-width: 634px) {
+@media screen and (max-width: 980px) and (min-width: 800px) {
 	h4 {
 		margin-bottom: 10px;
 	}
 }
 
 
-@media screen and (max-width: 980px) and (min-width: 634px) {
+@media screen and (max-width: 980px) and (min-width: 800px) {
 	#togglebutton {
 		display: flex;
 		flex-direction: column;
@@ -227,7 +234,7 @@ hr {
 	}
 }
 
-@media screen and (max-width: 980px) and (min-width: 634px) {
+@media screen and (max-width: 980px) and (min-width: 800px) {
 	#info {
 		display: flex;
 		flex-direction: column;
@@ -236,11 +243,30 @@ hr {
 	}
 }
 
-@media screen and (max-width: 980px) and (min-width: 634px) {
+@media screen and (max-width: 980px) and (min-width: 800px) {
 	#controls {
 		display:flex;
 		flex-direction: column;
 		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+	#controls {
+		display:flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+	#info {
+		display:flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		position: static;
 	}
 }
 
