@@ -212,14 +212,14 @@ hr {
 	}
 }
 
-@media screen and (max-width: 980px) and (min-width: 800px) {
+@media screen and (max-width: 980px) and (min-width: 801px) {
 	h4 {
 		margin-bottom: 10px;
 	}
 }
 
 
-@media screen and (max-width: 980px) and (min-width: 800px) {
+@media screen and (max-width: 980px) and (min-width: 801px) {
 	#togglebutton {
 		display: flex;
 		flex-direction: column;
@@ -227,7 +227,7 @@ hr {
 	}
 }
 
-@media screen and (max-width: 980px) and (min-width: 800px) {
+@media screen and (max-width: 980px) and (min-width: 801px) {
 	#info {
 		display: flex;
 		flex-direction: column;
@@ -236,7 +236,7 @@ hr {
 	}
 }
 
-@media screen and (max-width: 980px) and (min-width: 800px) {
+@media screen and (max-width: 980px) and (min-width: 801px) {
 	#controls {
 		display:flex;
 		flex-direction: column;
@@ -259,7 +259,7 @@ hr {
 		display:flex;
 		flex-direction: column;
 		justify-content: space-between;
-		align-items: center
+		align-items: center;
 		width: 100%;
 		height: auto;
 		position: static;
@@ -274,6 +274,7 @@ hr {
 	
 	#inputs {
 		padding-right: 5px;
+		width: calc(100% * (1/3) - 45px);
 	}
 	
 	#togglebutton {
@@ -281,11 +282,18 @@ hr {
 		padding-left: 10px;
 		padding-top: 5px;
 		padding-bottom: 5px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
 	}
 	
 	#infobutton {
 		align-self: center;
-		width: inherit;
+		width: calc(100% * (1/3) - 45px);
+	}
+	
+	#options {
+		width: calc(100% * (1/3) - 45px);
 	}
 	
 }
