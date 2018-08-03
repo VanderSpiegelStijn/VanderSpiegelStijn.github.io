@@ -212,14 +212,14 @@ hr {
 	}
 }
 
-@media screen and (max-width: 980px) and (min-width: 600px) {
+@media screen and (max-width: 980px) and (min-width: 634px) {
 	h4 {
 		margin-bottom: 10px;
 	}
 }
 
 
-@media screen and (max-width: 980px) and (min-width: 600px) {
+@media screen and (max-width: 980px) and (min-width: 634px) {
 	#togglebutton {
 		display: flex;
 		flex-direction: column;
@@ -227,13 +227,16 @@ hr {
 	}
 }
 
-@media screen and (max-width: 980px) and (min-width: 600px) {
-	#inputs {
-		
+@media screen and (max-width: 980px) and (min-width: 634px) {
+	#info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 }
 
-@media screen and (max-width: 980px) and (min-width: 600px) {
+@media screen and (max-width: 980px) and (min-width: 634px) {
 	#controls {
 		display:flex;
 		flex-direction: column;
