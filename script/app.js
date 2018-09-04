@@ -10,7 +10,7 @@ $(document).ready(function(){
 			method:'GET',
 			url: ingFilter+ing,
 			success: function(response){
-				if (response == null) {
+				if (response.ingredients == null) {
 					$("img").attr("src","/img/mystery.jpg");
 					$("#infoparagraph").text("Sorry it seems like the ingredient u are trying to use is has not been used yet in a coktail that we know of!");
 				} else 
