@@ -79,6 +79,7 @@ $(document).ready(function(){
 	if ($("#input-field-text").val().toLowerCase() == "") {
 		$("img").attr("src","/img/no-ingredient.jpg");
 		$("#infoparagraph").text("Sorry it seems like u forgot to enter an ingredient in the input field, please consider doing so to get the most out of this website!");
+		$("#cocktails").html("");
 	} else {
 		getIngInfo($("#input-field-text").val().toLowerCase())
 	}
